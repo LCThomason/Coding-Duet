@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<h1><img src="logo.png" alt="other" height="100" width="100">Chrystyles Hair Studio</h1>
+</head>
+<title>Contact | Chrystyles</title>
+<link rel="stylesheet" type="text/css" href="/templates/waterfall/css/style.css"/>
+<body>
+  <ul id=nav>
+ <li><a href="index.html" class="selected">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="services.html">Services</a></li>
+ <li><a href="gallery.html">Gallery</a></li>
+ <li><a href="hair.html">Hair Weave</a></li>
+ <li><a href="contact.html">Contact</a></li>
+  </ul> 
+  
+
+  <h2 class="page-title">Contact Us</h2>
+<script type="text/javascript">
+jQuery("<strong>Chrystyles Hair Studio</strong><br>620 Old Hickory blvd Suite 410A
+Jackson,Tennessee 38301<br>731-313-0274<br>E-Mail: chrystyles2010@gmail.com<br><br>").insertAfter("#content_bg h1");
+</script>
+
+
+
+  <div id="sidepic-wrap">
+  </div>
+<div class="tel">By Phone: 731-313-0274<i class="material-icons">phone</i></div>
+<div class="email"> By Email: <a href="https://www.google.com/gmail/about/">Chrstyles2010@gmail.com </a><i class="material-icons">mail</i></div>
+<div class="facebook">By Facebook: <a href="https://www.facebook.com/chrystyleshairstudio/?ref=aymt_homepage_panel">Chrystyles Hair Studio</a><i class="material-icons">facebook</i></div>
+<div class="instagram">By Instagram:<a href="https://www.instagram.com/chrystyleshairstudio/?hl=en">chrystyleshairstudio</a><i class="material-icons">computer</i></div>
+
+
+
+<script type="text/javascript">
+    jQuery("li.two a").click(function(e) { e.preventDefault(); });
+</script>
+
+
+
+<script>
+  function slider() {
+    jQuery("#rotator").show();
+    jQuery("#rotator").cycle({
+        fx: "fade",
+        sync: 1,
+        speed: 3000,
+        timeout: 6000
+    });
+  }
+ 
+  if (window.addEventListener) // W3C standard
+  {
+    window.addEventListener('load', slider, false); // NB **not** 'onload'
+  }
+  else if (window.attachEvent) // Microsoft
+  {
+    window.attachEvent('onload', slider);
+  }
+</script>
+
+
+<div id="footer2"><address>&copy; 2017 Chrystyles Hair Studio, all rights reserved.</address></div>
+
+  
+  <style type="text/css">
+		body {
+			background-color:#ffcccc ;
+			transition: background-color 0s;
+		}
+	</style>
+	<script type="text/javascript">
+		var colors = ["#ffcccc", "#ffd9cc", "#ffe6cc", "#fff2cc", "#ffffcc", "#f2ffcc", "#e6ffcc"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000);
+	</script>
+  
+
+
+
+  
+  
+</body>
+</html>

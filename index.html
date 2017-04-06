@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  </head> 
+<h1><img src="logo.png" alt="other" height="100" width="100">Chrystyles Hair Studio</h1>
+  <ul id=nav>
+ <li><a href="index.html" class="selected">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="services.html">Services</a></li>
+ <li><a href="gallery.html">Gallery</a></li>
+ <li><a href="hair.html">Hair Weave</a></li>
+ <li><a href="contact.html">Contact</a></li>
+  </ul> 
+    <title>www.ChrystylesHairStudio.com</title>
+  
+<body>
+  
+  <p><center>"WHERE BEAUTY IS ENHANCED GIVING YOU THE CONFIDENCE WITHIN"</center></p>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <div class="w3-content w3-display-container">
+    
+<div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1487078728634" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1487078758626.jpg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1487078794478" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1487078818084.jpg" style="width:100%">
+</div>
+  
+<div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1487078917274.jpg" style="width:99%">
+</div>
+
+  <div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1487078961326.jpg" style="width:100%">
+</div>
+  
+  <div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1490014518452" style="width:100%">
+</div>
+  
+  <div class="w3-display-container mySlides">
+  <img src="thumbnail_FB_IMG_1490014539642.jpg" style="width:100%">
+</div>
+    
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+   
+   
+ <h2 class="main-heading"></h2>
+    <div style="border:2px solid #000; text-align: right-align;">
+ <ul style="list-style-type:none">
+      <h3><p><u><center><ul>Tips On Taking Care Of Your Hair</ul></center></u></p></h3>
+  
+  <li>1. Wash your hair once every 1 to 2 weeks.</li>
+   <li>2. Consider washing your hair with just conditioner every 3 to 5 days.</li>
+   <li>3. Use a moisturizing conditioner with lightweight, essential oils.</li>
+   <li>4. Don't use products that contain silicones and sulfates</li>
+  <li>5. Consider using products with "organic" ingredients over products with "natural" ingredients.</li>
+     
+  </ul>
+ </div>  
+   
+ 
+  <style type="text/css">
+		body {
+			background-color:#ffcccc ;
+			transition: background-color 0s;
+		}
+	</style>
+	<script type="text/javascript">
+		var colors = ["#ffcccc", "#ffd9cc", "#ffe6cc", "#fff2cc", "#ffffcc", "#f2ffcc", "#e6ffcc"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000);
+	</script>
+  
+
+
+
+
+
+   
+   
+</body>
+</html>     
